@@ -1,0 +1,147 @@
+
+/* Q1 : Mise en forme générale */
+* {
+    font-family: Garamond;
+    margin: 0px;
+}
+body {
+    background-color: #e3ddd0;
+}
+/* Q2 : Mise en forme du header */
+header {
+    background-image: url(fond.png.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Q3 : Mise en forme du titre */
+header h1 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Navigation */
+nav {
+    background-color: #fcf2f2;
+    padding: 15px;
+    color: #2E2E2E;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+nav li {
+    display: inline-block;
+    margin: 0px 5px 0px 200px;
+    
+}
+nav a {
+    color: rgb(20, 19, 19);
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Q4 : Positionnement des articles et aside */
+.contenu {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.articles {
+    width: 70%;
+}
+
+.articles article {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+aside {
+    width: 20%;
+    padding: 15px;
+    border: 3px outset #DFD6C4;
+}
+
+/* Q5 : Couleurs des différentes parties */
+.newsletter {
+    background-color: #D2AF93;
+    padding: 30px;
+    text-align: center;
+}
+
+article {
+    background-color: #FFFFFF;
+
+}
+
+footer {
+    background-color: #2E2E2E;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Q6 : Formulaire */
+form {
+    width: 50%;
+    margin: auto;
+}
+
+/* Q7 : Texte justifié */
+.para {
+    text-align: justify;
+}
+/* 9. BOUTON S'ABONNER */
+input[type="submit"] {
+    background-color: #8B5E3C;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+/* Q8 : Couleur au moment du focus */
+input:focus {
+    background-color: #bbcdce;
+}
+
+/* Q9 : Bordure de aside */
+aside {
+    border: 3px outset #DFD6C4;
+}
+
+/* Q10 : Liens en gras au survol */
+a:hover {
+    font-weight: bold;
+}
+
+/* Q11 : Classes CSS */
+.majus {
+    text-transform: uppercase;
+}
+
+.blanc {
+    color: white;
+}
+
+.noir {
+    color: black;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+
+
+
+
+
